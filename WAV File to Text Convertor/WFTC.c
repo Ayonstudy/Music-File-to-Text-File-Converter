@@ -136,6 +136,7 @@ int main(int argc, char *argv[]) {
 	if(argc<=1){
 		printf("Too few arguements!\n");
 		printf("Missing WAV file name.\n");
+		printf("Type \"WTFC -h\" for help");
 		return 1;
 	}
 
@@ -177,6 +178,7 @@ int main(int argc, char *argv[]) {
 	// Third and more parameters
 	} else if (argc>=4){
 		printf("Too many arguements!\n");
+		printf("Type \"WTFC -h\" for help");
 		return 1;
 	}
 	return 0;
