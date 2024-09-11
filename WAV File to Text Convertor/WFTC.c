@@ -13,7 +13,7 @@
 // This executable converts WAV file data into text format
 // The raw music data will be converted to integer format
 // Compile with gcc: gcc -o WFTC WFTC.c
-// Format: WFTC [Wav file to convert] [optional: name to be given for text file]
+// Format for use: WFTC [Wav file to convert] [optional: name to be given for text file]
 
 typedef struct {
 	uint32_t samples;
