@@ -11,7 +11,7 @@
 // Project end date:    6th September 2024 03:24PM (GMT+6)
 // This executable only works with WAV files
 // This executable converts WAV file data into text format
-// The data will be in integer format
+// The raw music data will be converted to integer format
 // Compile with gcc: gcc -o WFTC WFTC.c
 // Format: WFTC [Wav file to convert] [optional: name to be given for text file]
 
