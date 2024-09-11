@@ -147,7 +147,7 @@ int main(int argc, char *argv[]) {
 		j++;
 	}
 
-	if(argc==2 && ((strcmp(arg,"-HELP")==0 || strcmp(arg, "--HELP")==0 || strcmp(arg, "/?")==0 || strcmp(arg, "-h")==0 ) || strcmp(arg, "--h")==0 || strcmp(arg, "-H")==0 || strcmp(arg, "--H")==0 )){
+	if(argc==2 && ((strcmp(arg,"-HELP")==0 || strcmp(arg, "--HELP")==0 || strcmp(arg, "/?")==0 || strcmp(arg, "-H")==0 || strcmp(arg, "--H")==0 )){
 			printf("Converts WAV file data into text form.\n\n");
 			printf("format for help: WFTC -h\n\n");
 			printf("Format: WFTC [Wav file to convert] [optional: name to be given for text file\n\n");
