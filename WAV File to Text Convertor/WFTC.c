@@ -25,7 +25,7 @@ bool LoadWav(const char *filename, sound_t *sound, const char *finaltext) {
 	FILE *file;
 	char text[4];
 	int32_t filesize;
-	int32_t format_length;		                                                   // 16
+	int32_t format_length;
 	int16_t format_type;
 	int16_t num_channels;
 	int32_t sample_rate;
