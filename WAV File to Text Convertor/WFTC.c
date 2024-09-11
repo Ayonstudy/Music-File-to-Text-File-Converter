@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <windows.h>
-#include <mmsystem.h>
 
 // Wave File to Text Convertor (WFTC)
 // Made by Ayonstudy
