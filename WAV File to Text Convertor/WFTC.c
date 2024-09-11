@@ -9,7 +9,7 @@
 // Made by Ayonstudy
 // Project start date: 25th August    2024 01:11AM (GMT+6)
 // Project end date:    6th September 2024 03:24PM (GMT+6)
-// This executable only works on WAV files
+// This executable only works with WAV files
 // This executable converts WAV file data into text format
 // The data will be in integer format
 // Compile with gcc: gcc -o WFTC WFTC.c
